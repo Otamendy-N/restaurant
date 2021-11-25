@@ -62,6 +62,46 @@ export default Vue.extend({
         unitQuantity: '0.5 litros',
         stock: '30 unidad/s',
         price: '20 000 Gs.'
+      },
+      {
+        id: 3,
+        name: 'Harina de Trigo 0000',
+        supplier: 'Hildebran',
+        category: 'Cereales',
+        subcategory: 'Gluten',
+        unitQuantity: '3.5 kilos',
+        stock: '20 unidad/s',
+        price: '15 000 Gs.'
+      },
+      {
+        id: 4,
+        name: 'Sopa Paraguaya 1kg',
+        supplier: 'Granopar',
+        category: 'Productos congelados',
+        subcategory: 'Listos para hornear',
+        unitQuantity: '2.5 kilos',
+        stock: '10 unidad/s',
+        price: '22 000 Gs.'
+      },
+      {
+        id: 5,
+        name: 'Pan',
+        supplier: 'Bimbo',
+        category: 'Panificados',
+        subcategory: 'Integral',
+        unitQuantity: '1.2 kilos',
+        stock: '15 unidad/s',
+        price: '18 000 Gs.'
+      },
+      {
+        id: 6,
+        name: 'Chorizo ',
+        supplier: 'Chortizer',
+        category: 'Embutidos',
+        subcategory: 'Chorizo picante',
+        unitQuantity: '4.0 kilos',
+        stock: '30 unidad/s',
+        price: '20 000 Gs.'
       }
     ]
   }),

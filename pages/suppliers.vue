@@ -65,6 +65,33 @@ export default Vue.extend({
         phoneNumber: '+ 459 435 5374',
         email: 'contacto@hiberland.com',
         country: 'Brasil'
+      },
+      {
+        id: 4,
+        name: 'Granopar',
+        manager: 'Raul Martinez',
+        address: 'Sto Domingo y 1 Proyectada',
+        phoneNumber: '+ 021 681 3971',
+        email: 'contacto@granopar.com',
+        country: 'Paraguay'
+      },
+      {
+        id: 5,
+        name: 'Chortizer ',
+        manager: 'Carlos Gimenez',
+        address: 'Avda Artigas N 2006',
+        phoneNumber: '+ 021 293 3001',
+        email: 'contacto@chortizer.com',
+        country: 'Paraguay'
+      },
+      {
+        id: 6,
+        name: 'Bimbo ',
+        manager: 'Mauricio Ortiz',
+        address: 'Avda Madame Lynch',
+        phoneNumber: '+ 021 328 9764',
+        email: 'contacto@consumidorbimbo.com',
+        country: 'Paraguay'
       }
     ]
   }),

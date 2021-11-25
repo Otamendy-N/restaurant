@@ -28,6 +28,22 @@ export default Vue.extend({
       {
         name: 'Limpieza',
         description: 'Categoria sobre productos de limpieza.'
+      },
+      {
+        name: 'Cereales',
+        description: 'Categoria sobre cerelea (arroz, harina).'
+      },
+      {
+        name: 'Panificados',
+        description: 'Categoria sobre panes (integral, baguete, centeno).'
+      },
+      {
+        name: 'Embutidos',
+        description: 'Categoria sobre chorizos (picante, viena, con queso).'
+      },
+      {
+        name: 'Productos congelados',
+        description: 'Categoria sobre productos congelados.'
       }
     ]
   }),
