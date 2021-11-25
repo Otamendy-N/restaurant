@@ -64,6 +64,10 @@ export default Vue.extend({
         price: '20 000 Gs.'
       }
     ]
-  })
+  }),
+  mounted () {
+    this.$store.commit('LayoutStore/setPageTitle', 'Productos')
+    this.$store.commit('LayoutStore/showAddBtn', true)
+  }
 })
 </script>

@@ -67,6 +67,10 @@ export default Vue.extend({
         country: 'Brasil'
       }
     ]
-  })
+  }),
+  mounted () {
+    this.$store.commit('LayoutStore/setPageTitle', 'Proveedores')
+    this.$store.commit('LayoutStore/showAddBtn', false)
+  }
 })
 </script>

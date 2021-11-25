@@ -46,8 +46,8 @@ export default {
     items: ItemsList.items,
     works: [],
     drawer: null,
-    username: 'Otamendy N',
-    rol: 'Administrador',
+    username: 'Juan Perez',
+    rol: 'Depositor',
     loading: false,
     text: ''
   }),
