@@ -20,11 +20,11 @@
       <v-list-item
         class="d-flex align-center"
         active-class="primary white--text"
-        to="/logout"
+        to="/login"
         @click="logout"
       >
         <v-list-item-icon>
-          <v-icon>
+          <v-icon color="secondary">
             mdi-exit-to-app
           </v-icon>
         </v-list-item-icon>
